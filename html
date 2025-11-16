@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Era Cap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">New Era Store</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#modelos">Modelos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <h1>Gorras New Era</h1>
+        <p>Los mejores modelos 59FIFTY, 9FIFTY y más.</p>
+        <a href="#modelos" class="btn">Ver Modelos</a>
+    </section>
+
+    <section id="modelos" class="modelos">
+    <h2>Modelos Destacados</h2>
+
+    <div class="grid">
+        <div class="card">
+            <img src="img/Gorra Boston.jpg" alt="Gorra Boston">
+            <h3>New Era Boston</h3>
+            <p>Modelo clásico y elegante.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/Gorra Raiders.jpg" alt="Gorra Raiders">
+            <h3>New Era Raiders</h3>
+            <p>Snapback ajustable.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/Gorra sox.jpg" alt="Gorra Sox">
+            <h3>New Era Sox</h3>
+            <p>Estilo casual.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una tienda dedicada a ofrecer las mejores gorras New Era, trabajando siempre con productos originales, son productos 100% echos en algodon.</p>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 New Era Store - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
